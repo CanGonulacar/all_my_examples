@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 
 final class CustomLightTheme implements CustomTheme {
   @override
-  FloatingActionButtonThemeData get fabThemeData => throw UnimplementedError();
+  FloatingActionButtonThemeData get fabThemeData =>
+      const FloatingActionButtonThemeData();
 
   @override
   ThemeData get themeData => ThemeData(

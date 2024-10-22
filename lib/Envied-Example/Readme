@@ -1,4 +1,5 @@
 Bu paketi kullanma amacımız direkt erişimi engellemek. Envied paketi ile arayı bir katman koymuş oluyor. Daha güvenli hale getirmiş oluyoruz. 
+Build_runner içiren code generation içeren her şeyi ana projeden ayırmak çok daha hoştur yönetim açısından. Module klasör oluşturup orada yönetmek sana fayda kazandırır.
 
 TODO:
 prod env ekle

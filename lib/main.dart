@@ -1,4 +1,4 @@
-import 'package:all_my_examples/home_view.dart';
+import 'package:all_my_examples/Navigaton-Example/app_router.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,12 +10,12 @@ class _MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const HomeView(),
+      //theme: CustomLightTheme().themeData,
+      //darkTheme: CustomDarkTheme().themeData,
+      //home: const HomeView(),
+      onGenerateRoute: AppRouter.onGenerateRoute,
     );
   }
 }
