@@ -1,5 +1,3 @@
-
-
 enum NavigationRouteKeys {
   home('/'),
   settings('/settings'),
