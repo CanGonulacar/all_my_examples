@@ -1,0 +1,4 @@
+Bu paketi kullanma amacımız direkt erişimi engellemek. Envied paketi ile arayı bir katman koymuş oluyor. Daha güvenli hale getirmiş oluyoruz. 
+
+TODO:
+prod env ekle
