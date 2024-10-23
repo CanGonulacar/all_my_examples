@@ -1,0 +1,1 @@
+yine get_it paketi için birden fazla yönetim senaryosu mevcut. Ben böyle tercih ediyorum. Sende farklı bir şekilde yönet karşılaştıralım.
